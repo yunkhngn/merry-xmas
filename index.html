@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Christmas</title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div id="error-log"></div>
+    
+    <!-- UI Layer -->
+    <div id="ui-layer">
+        <div class="guide">
+            🖐 <b>Open:</b> Explode &nbsp;|&nbsp; 🫶 <b>Heart:</b> Love &nbsp;|&nbsp; ✊ <b>Fist:</b> Tree
+        </div>
+        <button id="btnStart" onclick="startSystem()">START MAGIC</button>
+    </div>
+
+    <!-- Copyright -->
+    <div id="copyright">© by vandiep</div>
+
+    <!-- Canvas Container -->
+    <div id="canvas-container"></div>
+    
+    <!-- Hidden video for camera input -->
+    <video class="input_video" style="display:none"></video>
+    
+    <!-- Camera preview -->
+    <canvas id="camera-preview"></canvas>
+
+    <!-- Main Application -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+    "photos": [
+        {
+            "id": 1,
+            "filename": "image1.jpeg",
+            "path": "./images/image1.jpeg",
+            "alt": "Photo 1"
+        },
+        {
+            "id": 2,
+            "filename": "image2.jpeg",
+            "path": "./images/image2.jpeg",
+            "alt": "Photo 2"
+        },
+        {
+            "id": 3,
+            "filename": "image3.jpeg",
+            "path": "./images/image3.jpeg",
+            "alt": "Photo 3"
+        },
+        {
+            "id": 4,
+            "filename": "image4.jpeg",
+            "path": "./images/image4.jpeg",
+            "alt": "Photo 4"
+        },
+        {
+            "id": 5,
+            "filename": "image5.jpeg",
+            "path": "./images/image5.jpeg",
+            "alt": "Photo 5"
+        }
+    ]
+}
